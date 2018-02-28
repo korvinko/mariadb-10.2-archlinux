@@ -196,4 +196,12 @@ package_mariadb() {
   # not needed
   rm -r usr/{data,mysql-test,sql-bench}
   rm usr/share/man/man1/mysql-test-run.pl.1
+  
+  # from this isssue https://github.com/johndoejdg/mariadb-10.2-archlinux/issues/1
+  rm usr/bin/mariadb_config
+  rm usr/lib/libmariadb*
+  rm usr/lib/mysql/plugin/auth_gssapi_client.so
+  rm usr/lib/mysql/plugin/dialog.so
+  rm usr/lib/mysql/plugin/mysql_clear_password.so
+  rm usr/lib/mysql/plugin/sha256_password.so
 }
