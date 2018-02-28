@@ -4,7 +4,7 @@
 
 pkgbase=mariadb
 pkgname=('libmariadbclient' 'mariadb-clients' 'mytop' 'mariadb')
-pkgver=10.2.12
+pkgver=10.2.13
 pkgrel=1
 arch=('x86_64')
 license=('GPL')
