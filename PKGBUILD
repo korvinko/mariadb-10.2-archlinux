@@ -13,7 +13,7 @@ makedepends=('cmake' 'zlib' 'libaio' 'libxml2' 'openssl' 'jemalloc'
              'lz4' 'boost' 'libevent' 'systemd')
 validpgpkeys=('199369E5404BD5FC7D2FE43BCBCB082A1BB943DB') # MariaDB Package Signing Key <package-signing-key@mariadb.org>
 source=("https://ftp.heanet.ie/mirrors/mariadb/mariadb-$pkgver/source/mariadb-$pkgver.tar.gz"{,.asc})
-sha256sums=('2ab22d7fbacfabc30fe18f71a8afb173250074502d889457e3cde2e203d341ec'
+sha256sums=('272e7ed9300a05da9e02f8217a01ed3447c4f5a36a12e5233d62cc7c586fc753'
             'SKIP'
 )
 
