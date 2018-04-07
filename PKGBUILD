@@ -4,7 +4,7 @@
 
 pkgbase=mariadb
 pkgname=('libmariadbclient' 'mariadb-clients' 'mytop' 'mariadb')
-pkgver=10.2.13
+pkgver=10.2.14
 pkgrel=1
 arch=('x86_64')
 license=('GPL')
@@ -13,7 +13,7 @@ makedepends=('cmake' 'zlib' 'libaio' 'libxml2' 'openssl' 'jemalloc'
              'lz4' 'boost' 'libevent' 'systemd')
 validpgpkeys=('199369E5404BD5FC7D2FE43BCBCB082A1BB943DB') # MariaDB Package Signing Key <package-signing-key@mariadb.org>
 source=("https://ftp.heanet.ie/mirrors/mariadb/mariadb-$pkgver/source/mariadb-$pkgver.tar.gz"{,.asc})
-sha256sums=('272e7ed9300a05da9e02f8217a01ed3447c4f5a36a12e5233d62cc7c586fc753'
+sha256sums=('3443ec2d6e8af1eba49d097f6b2f6741c8d94b75abf19b8dd5753608f0703f7e'
             'SKIP'
 )
 
