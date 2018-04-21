@@ -11,11 +11,10 @@ license=('GPL')
 url='http://mariadb.org/'
 makedepends=('cmake' 'zlib' 'libaio' 'libxml2' 'openssl' 'jemalloc'
              'lz4' 'boost' 'libevent' 'systemd')
-validpgpkeys=('199369E5404BD5FC7D2FE43BCBCB082A1BB943DB') # MariaDB Package Signing Key <package-signing-key@mariadb.org>
-source=("https://downloads.mariadb.org/f/mariadb-$pkgver/source/mariadb-$pkgver.tar.gz?serve"{,.asc})
-sha256sums=('3443ec2d6e8af1eba49d097f6b2f6741c8d94b75abf19b8dd5753608f0703f7e'
-            'SKIP'
-)
+             
+#validpgpkeys=('177F4010FE56CA3336300305F1656F24C74CD1D8,199369E5404BD5FC7D2FE43BCBCB082A1BB943DB') # MariaDB Package Signing Key <package-signing-key@mariadb.org>
+source=("https://downloads.mariadb.org/f/mariadb-$pkgver/source/mariadb-$pkgver.tar.gz")
+sha256sums=('3443ec2d6e8af1eba49d097f6b2f6741c8d94b75abf19b8dd5753608f0703f7e')
 
 prepare() {
   cd $pkgbase-$pkgver/
